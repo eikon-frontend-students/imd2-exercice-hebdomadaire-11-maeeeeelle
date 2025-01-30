@@ -12,3 +12,51 @@ img,
 video {
   display: block;
 }
+
+.like {
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding: 50px 1542px 1029px 50px;
+  align-items: center;
+}
+
+.button {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 19px;
+  line-height: 18px;
+  border: 2px solid #f00;
+}
+
+.active .button {
+  background-color: red;
+  h1,
+  p,
+  i {
+    color: white;
+  }
+}
+
+.fa-heart {
+  color: #f00;
+  font-family: "Font Awesome 6 Free";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+h1 {
+  color: #f00;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+p {
+  color: #000;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
